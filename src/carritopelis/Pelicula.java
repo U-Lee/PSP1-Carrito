@@ -1,7 +1,9 @@
 package carritopelis;
 
-/**
+/*
+ * Clase que contiene la creación del objeto pelicula
  *
+ * @versión 1.0   Fecha 10/12/2017
  * @author Omar Ulises Hernández Cervantes, Oswaldo Josue Hernández Juárez
  */
 public class Pelicula {
@@ -17,7 +19,8 @@ public class Pelicula {
      * @param genero Cadena que almacena el género al que pertenece la película
      * @param precio Cadena que almacena el precio de venta de la película
      */
-    public Pelicula(String ID, String titulo, String actor, String genero, String precio) {
+    public Pelicula(String ID, String titulo, String actor, String genero,
+            String precio) {
         this.ID = ID;
         this.titulo = titulo;
         this.actor = actor;

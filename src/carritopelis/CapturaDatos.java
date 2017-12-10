@@ -2,8 +2,10 @@ package carritopelis;
 
 import javax.swing.JOptionPane;
 
-/**
+/*
+ * Clase que sirve para pedir y capturar los datos ingresados por el usuario
  *
+ * @versión 1.0   Fecha 10/12/2017
  * @author Omar Ulises Hernández Cervantes, Oswaldo Josue Hernández Juárez
  */
 public class CapturaDatos {

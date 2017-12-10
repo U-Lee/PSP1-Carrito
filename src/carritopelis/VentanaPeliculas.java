@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
+/*
+ * Clase que contiene la ventana principal así como el método para llenar
+ * la tabla del catálogo de peliculas
  *
+ * @versión 1.0   Fecha 10/12/2017
  * @author Omar Ulises Hernández Cervantes, Oswaldo Josue Hernández Juárez
  */
 public class VentanaPeliculas extends javax.swing.JFrame {
@@ -262,7 +265,7 @@ public class VentanaPeliculas extends javax.swing.JFrame {
             modelo = (DefaultTableModel) carritoCompras.getModel();
             String filaelemento[] = {titulo, precio};
             total = total + subtotal;
-            modelo.addRow(filaelemento);    //El método
+            modelo.addRow(filaelemento);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,
                     "Selecciona una película del catálogo", "",
